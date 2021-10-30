@@ -41,32 +41,3 @@ object RetrofitClient {
     }
 }
 
-/*class MoonApi  {
-    private val serviceKey: String = "yv9hVU93f4PPNexTn2n3fVhmnhCEgcp85Om7WNIDuok/wFMX9L4ZlmHB8mI0zCqdPFYB3K5hDgaARJ2d4ko3cQ=="
-    private val baseUrl: String = "http://apis.data.go.kr/B090041/openapi/service/LunPhInfoService/"
-
-    public fun getLunarAge(year: String, month: String, day: String) : LunarAge? {
-        var result : LunarAge? = LunarAge()
-        val retrofit = Retrofit.Builder()
-            .baseUrl(baseUrl)
-            .callFactory(OkHttpClient.Builder().build())
-            .addConverterFactory(TikXmlConverterFactory.create(TikXml.Builder().exceptionOnUnreadXml(false).build()))
-            .build()
-        val retroService = retrofit.create(RetrofitService::class.java)
-        val call: Call<XmlResponse> = retroService.getInfo(serviceKey, year, month, day)
-
-        call.enqueue(object : Callback<XmlResponse> {
-            override fun onResponse(call: Call<XmlResponse>, response: Response<XmlResponse>) {
-                result = response.body()?.body?.items?.item
-                Log.d("Success", "${result}")
-            }
-
-            override fun onFailure(call: Call<XmlResponse>, t: Throwable) {
-                Log.d("Failed", "$t")
-            }
-
-        })
-        return  result
-    }
-}*/
-

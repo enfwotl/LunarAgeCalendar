@@ -2,7 +2,7 @@
 
 <!-- Lunar Age Calendar - Activity_Main
     Kim Hyun
-    Main(First) Page Activity
+    Main(First) Page Activity (View)
     Data Binding -->
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
