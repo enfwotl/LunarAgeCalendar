@@ -12,7 +12,8 @@
         android:theme="@style/Theme.LunarAgeCalendar"
         android:networkSecurityConfig="@xml/network_config">
 
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.MainActivity"
+            android:label="Lunar Phase Calendar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER"/>
