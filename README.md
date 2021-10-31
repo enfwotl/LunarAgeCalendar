@@ -63,7 +63,7 @@ Some dummy data might be displayed sometimes because of asynchronous communicati
 <h3>Background story :</h3>
 I thought about more simple application at first, but when I saw my BF, who likes to look up the night sky, I changed my plan to make this lunar phase calendar.<br>
 There were many trials and errors because this is my first project of making application through Kotlin and Android Studio. (I used to make app with VS and VC Code.)<br>
-Through this project, I became more confident of trying more other languages and environment.<br>
+Through this project, I became more confident of trying more other languages and environments.<br>
 I put much effort to implement the MVVM Pattern.<br>
 I cannot say I'm perfect at MVVM Pattern, but I had enough experience through the internship. (Especially ViewModel)<br>
 It was a really good experience developing this application, even though there were a lot of things I've never done before.<br>
